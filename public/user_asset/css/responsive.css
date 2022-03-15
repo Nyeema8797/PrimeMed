@@ -1,0 +1,377 @@
+/* Medium Layout: 1280px. 
+
+Checking Point: 1000px
+Width: 970px
+*/
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+    .container{
+        width: 970px;
+    }
+    .team-social a {
+        width: 28px;
+    }
+    .lab-table {
+        width: 455px;
+    }
+    
+}
+/* Tablet Layout: 768px. 
+
+Checking Point: 800px
+Width: 750px
+*/
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    .container{
+        width: 750px;
+    }
+    .navbar-brand {
+        font-size: 25px;
+    }
+    .menu ul li a {
+        font-size: 15px;
+        padding: 0px;
+        margin: 2px;
+    }
+    .menu ul li a:hover {
+        padding: 3px 5px;
+    }
+    .menu ul li ul {
+        width: 160px;
+    }
+    .single-service a i {
+        font-size: 40px;
+    }
+    .single-service h4 span {
+        font-size: 23px;
+    }
+    .single-service .service-link::before {
+        left: 40px;
+        width: 60%;
+        font-size: 16px;
+    }
+    .single-service .service-link {
+        padding: 0px 10px;
+    }
+    .footer-right p {
+        font-size: 15px;
+    }
+    .footer-middle a {
+        font-size: 17px;
+    }
+    .footer-right a {
+        font-size: 18px;
+    }
+    .section-title {
+        margin: -25px 0px;
+    }
+    .single-appointment{
+        margin-bottom: 20px;
+    }
+    .form-left{
+        margin-bottom: 15px;
+    }
+    .order-by {
+        margin-bottom: 15px;
+    }
+    .single-service-part h2{
+        font-size: 23px;
+    }
+    .single-service-part h4{
+        font-size: 20px;
+    }
+    .middle{
+        margin-top: -12rem;
+    }
+    ul.dropdown-menu.show li ul li {
+        background: #03053d;
+        top: 0%;
+        box-shadow: 0 0 5px #ffffff00;
+        visibility: hidden;
+        min-width: 80px;
+        border-left: 1px solid #2be779;
+        position: relative;
+        left: 0%;
+        opacity: 0;
+        margin-left: 30px;
+        display: none;
+    }
+    ul.dropdown-menu.show li:hover>ul li {
+        transition: 0.3s;
+        left: 0% !important;
+        visibility: visible;
+        display: grid;
+        opacity: 100;
+    }
+    ul.dropdown-menu.show li {
+        border-bottom: 0px solid #1f1f21;
+    }
+    ul.dropdown-menu.show {
+        box-shadow: 0 0 9px #06060600;
+    }
+    ul.dropdown-menu.show li:hover>ul li {
+        transition: 0.3s;
+        left: 0% !important;
+        visibility: visible;
+        display: grid;
+        opacity: 100;
+    }
+ ul.dropdown-menu.show li:hover>ul {
+        transition: 0.3s;
+        visibility: visible;
+        opacity: 100;
+        display: contents;
+        padding: 0px 5px;
+    }
+    ul.dropdown-menu.show li ul li a {
+        padding: 5px 10px;
+        border-bottom: 1px solid #1f1f21;
+        text-decoration: none;
+    }
+}
+/* Mobile Layout: 320px. 
+Checking Point: 320px
+Width: 300px
+*/
+@media only screen and (max-width: 767px) {
+    .container{
+        width: 300px;
+    }
+	.footer {
+        text-align: center;
+    }
+    .footer-right a {
+        font-size: 18px;
+    }
+    .footer-area.pt-70.pb-70 {
+        padding-bottom: 10px;
+    }
+    .section-title {
+        margin: -25px 0px;
+    }
+    .banner h2 {
+        font-size: 28px;
+    }
+    .banner h4 {
+        font-size: 20px;
+    }
+    .box-btn {
+        padding: 8px 10px;
+        font-size: 18px;
+    }
+    .h-500{
+        height: 300px;
+    }
+    .banner h2 {
+        margin: 8px 0px;
+    }
+    .email {
+        margin: 5px 0px;
+    }
+    .search-btn button {
+        top: -8px;
+    }
+    .single-form {
+        margin-top: 25px;
+    }
+    .single-appointment{
+        margin-bottom: 20px;
+    }
+    .banner {
+        width: 70%;
+    }
+    .order-by {
+        margin-bottom: 15px;
+    }
+    .lab-info h3{
+        font-size: 15px;
+        text-align: left;
+    }
+    .lab-table {
+        width: 270px;
+    }
+    .table table {
+        text-transform: capitalize;
+        padding: 0 5px;
+        font-size: 13px;
+    }
+    .single-service-part h2{
+        font-size: 23px;
+    }
+    .single-service-part h4{
+        font-size: 20px;
+    }
+    .map {
+        margin-top: 20px;
+    }
+    table.table tr {
+        font-size: 15px;
+    }
+    .all-appointment h2, .all-services h2, .all-cart h2, .all-lab-report h2{
+        font-size: 20px;
+    }
+    .invoice .company-details {
+        text-align: left;
+    }
+    main {
+        font-size: 15px;
+    }
+    .invoice table td, .invoice table th {
+        padding: 5px;
+    }
+    .invoice table th {
+        white-space: normal;
+    }
+    .thanks h4 {
+        font-size: 16px;
+    }
+    .middle{
+        margin-top: -12rem;
+    }
+    ul.dropdown-menu.show li ul li {
+        background: #03053d;
+        top: 0%;
+        box-shadow: 0 0 5px #ffffff00;
+        visibility: hidden;
+        min-width: 80px;
+        border-left: 1px solid #2be779;
+        position: relative;
+        left: 0%;
+        opacity: 0;
+        margin-left: 30px;
+        display: none;
+    }
+    ul.dropdown-menu.show li:hover>ul li {
+        transition: 0.3s;
+        left: 0% !important;
+        visibility: visible;
+        display: grid;
+        opacity: 100;
+    }
+    ul.dropdown-menu.show li {
+        border-bottom: 0px solid #1f1f21;
+    }
+    ul.dropdown-menu.show {
+        box-shadow: 0 0 9px #06060600;
+    }
+    .single-service {
+        margin-top: 15px;
+    }
+    ul.dropdown-menu.show li:hover>ul li {
+        transition: 0.3s;
+        left: 0% !important;
+        visibility: visible;
+        display: grid;
+        opacity: 100;
+    }
+ ul.dropdown-menu.show li:hover>ul {
+        transition: 0.3s;
+        visibility: visible;
+        opacity: 100;
+        display: contents;
+        padding: 0px 5px;
+    }
+    ul.dropdown-menu.show li ul li a {
+        padding: 5px 10px;
+        border-bottom: 1px solid #1f1f21;
+        text-decoration: none;
+    }
+}
+
+/* Wide Mobile Layout: 480px. 
+
+Checking Point: 600px
+Width: 450px
+*/
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+    .container{
+        width: 450px;
+    }
+    .single-service .service-link::before {
+        left: 92px;
+    }
+    .search-btn button {
+        top: 0px;
+    }
+    .single-appointment{
+        margin-bottom: 20px;
+    }
+    .order-by {
+        margin-bottom: 15px;
+    }
+    .lab-table {
+        width: 455px;
+    }
+    .single-service-part h2{
+        font-size: 23px;
+    }
+    .single-service-part h4{
+        font-size: 20px;
+    }
+    .map {
+        margin-top: 20px;
+    }
+    table.table tr {
+        font-size: 15px;
+    }
+    .invoice .company-details {
+        text-align: left;
+    }
+    main {
+        font-size: 15px;
+    }
+    .invoice table td, .invoice table th {
+        padding: 5px;
+    }
+    .middle {
+        margin-top: -12rem;
+    }
+    .thanks h4 {
+        font-size: 16px;
+    }
+    ul.dropdown-menu.show li ul li {
+        background: #03053d;
+        top: 0%;
+        box-shadow: 0 0 5px #ffffff00;
+        visibility: hidden;
+        min-width: 80px;
+        border-left: 1px solid #2be779;
+        position: relative;
+        left: 0%;
+        opacity: 0;
+        margin-left: 30px;
+        display: none;
+    }
+    ul.dropdown-menu.show li:hover>ul li {
+        transition: 0.3s;
+        left: 0% !important;
+        visibility: visible;
+        display: grid;
+        opacity: 100;
+    }
+
+    ul.dropdown-menu.show li:hover>ul {
+        transition: 0.3s;
+        visibility: visible;
+        opacity: 100;
+        display: contents;
+        padding: 0px 5px;
+    }
+
+    ul.dropdown-menu.show li ul li a {
+        padding: 5px 10px;
+        border-bottom: 1px solid #1f1f21;
+        text-decoration: none;
+    }
+    ul.dropdown-menu.show li {
+        border-bottom: 0px solid #1f1f21;
+    }
+    ul.dropdown-menu.show {
+        box-shadow: 0 0 9px #06060600;
+    }
+    .single-service {
+        margin-top: 15px;
+    }
+    
+}
